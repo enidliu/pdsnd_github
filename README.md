@@ -8,7 +8,7 @@ Include the date you created this project and README file.
 Udacity project 3 - version control
 
 ### Description
-Describe what your project is about and what it does
+Version control project using the bikeshare project to carry out version control functions. 
 
 ### Files used
 Include the files used
