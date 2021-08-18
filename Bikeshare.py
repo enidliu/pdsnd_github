@@ -32,7 +32,7 @@ def see_datas(data):
     days={'1':'Sunday', '2':'Monday', '3':'Tuesday','4':'Wednesday','5':'Thursday', '6':'Friday', '7':'Saturday'}
     while True:
         if data=='cities':
-            return input_mod('Would you linke to see data for Chicago, New York City or Washington:\n',cities)
+            return input_mod('Would you like to see data for Chicago, New York City or Washington:\n',cities)
         elif data=='months':
             return input_mod('which month from January to June?\n',months)
         elif data=='days':
