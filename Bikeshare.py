@@ -213,7 +213,7 @@ def user_stats(df):
           print('Most recent user year of birth: %i.'%(recent_birth))
           print ('Most common user year of birth: %i'%(common_birth))
     else:
-          print("Sorry, this city do not have birth year data")
+          print("Sorry, this city does not have birth year data")
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
