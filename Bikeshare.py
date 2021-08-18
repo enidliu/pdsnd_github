@@ -19,7 +19,7 @@ def input_mod(input_print,enterable_list):
         if ret in enterable_list:
             return ret.lower()
             break
-        print('Sorry, please entre {}.'.format(enterable_list))
+        print('Sorry, pls entre {}.'.format(enterable_list))
 def see_datas(data):
     """user choose a data to input
        Arg:
