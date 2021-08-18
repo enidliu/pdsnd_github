@@ -19,7 +19,7 @@ def input_mod(input_print,enterable_list):
         if ret in enterable_list:
             return ret.lower()
             break
-        print('Sorry, please entre {}.'.format(enterable_list))
+        print('Sorry, pls entre {}.'.format(enterable_list))
 def see_datas(data):
     """user choose a data to input
        Arg:
@@ -32,7 +32,7 @@ def see_datas(data):
     days={'1':'Sunday', '2':'Monday', '3':'Tuesday','4':'Wednesday','5':'Thursday', '6':'Friday', '7':'Saturday'}
     while True:
         if data=='cities':
-            return input_mod('Would you linke to see data for Chicago, New York City or Washington:\n',cities)
+            return input_mod('Would you like to see data for Chicago, New York City or Washington:\n',cities)
         elif data=='months':
             return input_mod('which month from January to June?\n',months)
         elif data=='days':
@@ -213,7 +213,7 @@ def user_stats(df):
           print('Most recent user year of birth: %i.'%(recent_birth))
           print ('Most common user year of birth: %i'%(common_birth))
     else:
-          print("Sorry, this city do not have birth year data")
+          print("Sorry, this city does not have birth year data")
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
